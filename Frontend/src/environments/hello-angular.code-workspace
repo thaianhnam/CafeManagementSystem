@@ -1,0 +1,37 @@
+{
+	"folders": [
+		{
+			"path": "C:/Users/DELL/hello-angular"
+		},
+		{
+			"path": "../../../../angular/angular-lab1"
+		},
+		{
+			"path": "../../../../angular/testag"
+		},
+		{
+			"path": "../../../../angular/ng100days"
+		},
+		{
+			"path": "../../../../angular/pipe"
+		},
+		{
+			"path": "../../../../ob"
+		},
+		{
+			"path": "../../../../rxjs"
+		},
+		{
+			"path": "../../../../angular/day27-routing"
+		},
+		{
+			"path": "../../../../angular/acme"
+		},
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "rxjs"
+	}
+}
