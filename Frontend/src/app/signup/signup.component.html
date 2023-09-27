@@ -60,7 +60,7 @@
             <span>New Password & Confirm Password dóe not match.</span>
           </mat-hint>
         </mat-form-field>
-    
+
       </div>
   </form>
 </mat-dialog-content>
@@ -69,5 +69,5 @@
   <button mat-raised-button color="primary" type="submit" (click)="handleSubmit()" [disabled]="validateSubmit() || !(signupForm.valid && signupForm.dirty)">
     <mat-icon>save</mat-icon> Signup
   </button>
-  <button mat-raised-button color="warn" mat-dialog-close><mat-icon>cancle</mat-icon>Close</button>
+  <button mat-raised-button color="warn" mat-dialog-close><mat-icon>clear</mat-icon>Close</button>
 </mat-dialog-actions>

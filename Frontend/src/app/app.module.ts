@@ -17,6 +17,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { SignupComponent } from './signup/signup.component';
 import { NgxUiLoaderConfig, NgxUiLoaderModule, SPINNER } from 'ngx-ui-loader';
 import { MatFormFieldModule } from '@angular/material/form-field';
+import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
 const ngxUiLoaderConfig: NgxUiLoaderConfig = {
   text:"Loading...",
   textColor:"#FFFFFF",
@@ -29,7 +30,7 @@ const ngxUiLoaderConfig: NgxUiLoaderConfig = {
 
 }
 @NgModule({
-  declarations: [	
+  declarations: [		
     AppComponent,
     HomeComponent,
     BestSellerComponent,
@@ -37,7 +38,7 @@ const ngxUiLoaderConfig: NgxUiLoaderConfig = {
     AppHeaderComponent,
     AppSidebarComponent,
       SignupComponent,
-      
+      ForgotPasswordComponent
    ],
   imports: [
     BrowserModule,
