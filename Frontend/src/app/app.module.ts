@@ -39,8 +39,8 @@ const ngxUiLoaderConfig: NgxUiLoaderConfig = {
     FullComponent,
     AppHeaderComponent,
     AppSidebarComponent,
-      SignupComponent,
-      ForgotPasswordComponent,
+    SignupComponent,
+    ForgotPasswordComponent,
       LoginComponent
    ],
   imports: [
